@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FeedBack Form</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="newDropDown.css">
+    <link rel="stylesheet" href="feedback.css">
+</head>
+<body>
+      <!-- navgation bar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light opacity-75">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img src="NoteLogo.png" class="img-circle" alt="abc.jpg" style="background-color: red;"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Auther_about.html">Book_list</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="AuthorForm.html">Author_Registration_Form</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="feedbackform.html">Feedback</a>
+          </li>
+      </div>
+    </div>
+  </nav>
+<!-- navigation bar  -->
+    <div class="container-fluid" style="background: rgb(226, 217, 193);">
+        <div class="row">
+            <div class="col-md-12">
+                <h3 class="bg">
+                    <small class="display-4 pt-3 pl-3 pb-3">FeedBack</small>
+                  </h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+            <p class="lead font-italic h-primary">Here at Local it is our duty ti serve you,the customer, and we take your feedback very seriously,Whether nagative or positive,please let us know about your experience.
+            </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <form>
+                    <span class="text-dark ml-2 name" >Name</span>
+                    <div class="form-row">
+                      <div class="col-md-6">
+                        <input type="text" class="form-control" placeholder="First name">
+                        <span class="text-secondary ml-2 first">First Name </span>
+                      </div>
+                      <div class="col-md-6">
+                        <input type="text" class="form-control" placeholder="Last name">
+                        <span class="text-secondary ml-2 second">Last Name</span>
+                      </div>
+                      <br>
+                    </div>
+                    <div class="form">
+                      <div class="col-md-6">               
+                        <span class="text-dark ml-2 name " >Business</span>
+                      <input type="text" name="business" class="form-control" id="business">
+                    </div>
+                  </div>
+                  </form>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12 mt-3">
+                <div class="form-check form-check-inline mr-5 ml-5">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                    <label class="form-check-label" for="inlineRadio1">Excellent</label>
+                  </div>
+                  <div class="form-check form-check-inline mr-5 ml-5">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                    <label class="form-check-label" for="inlineRadio2">Very Good</label>
+                  </div>
+                  <div class="form-check form-check-inline mr-5 ml-5">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3">
+                    <label class="form-check-label" for="inlineRadio3">Good</label>
+                  </div>
+                  <div class="form-check form-check-inline mr-5 ml-5">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3">
+                    <label class="form-check-label" for="inlineRadio3">Average</label>
+                  </div>
+                  <div class="form-check form-check-inline mr-5 ml-5">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3">
+                    <label class="form-check-label" for="inlineRadio3">Poor</label>
+                  </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <form class="was-validated">
+                    <div class="h-secondary text-muted">
+                        <span class="text-dark">Do you have suggestions on what we can do to provide you with a better service?</span>
+                      <textarea class="form-control is-invalid" id="validationTextarea"></textarea>
+                      <div class="invalid-feedback">
+                        Please enter a message in the textarea.
+                      </div>
+                    </div>
+                    <div class="col-auto">
+                        <button class="btn btn-primary mb-2" type="submit">Submit form</button>
+                      </div>
+            </div>
+        </div>
+    </div>
+    <script src="/jquery-3.6.0.slim.js"></script>
+    <script src="/bootstrap.min.js"></script>
+</body>
+</html>

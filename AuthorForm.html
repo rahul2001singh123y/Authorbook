@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student From</title>
+  <link rel="stylesheet" href="newDropDown.css">
+  <link rel="stylesheet" href="AuthorForm.css">
+  <link rel="stylesheet" href="bootstrap.min.css">
+  <script src="jquery-3.6.0.slim.js"></script>
+</head>
+<body>
+<!-- navgation bar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light opacity-75">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#"><img src="NoteLogo.png" class="img-circle" alt="abc.jpg" style="background-color: red;"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Auther_about.html">Book_list</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="AuthorForm.html">Author_Registration_Form</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="feedbackform.html">Feedback</a>
+        </li>
+    </div>
+  </div>
+</nav>
+<!-- Navigation bar  -->
+<!--Form   -->
+ <div class="container-fluid" style="background: rgb(226, 217, 193);">
+    <div class="row">
+      <div class="col-md-12 ">
+        <h1 class="text-info">Client Registration </h1>
+        <hr>
+        <form>
+          <label for="name" class="form-label">Contact person</label>
+          <div class="form-row">
+            <br>
+            <div class="col-6">
+              <input type="text" class="form-control" placeholder="First name" required>
+              <span class="text-secondary ml-2 first">First Name </span>
+            </div>
+            <div class="col-6">
+              <input type="text" class="form-control" placeholder="Last name" required>
+              <span class="text-secondary ml-2 second">Last Name</span>
+            </div>
+          </div>
+          <br>
+          <div class="col-6">
+            <label for="business" class="form-label">Business</label><br>
+            <input type="text" class="form-control" required>
+          </div>
+          <br>
+          <div class="col-12">
+            <label for="address" class="form-label">Address</label>
+            <input type="text" class="form-control" id="address" required>
+            <span class="text-secondary ml-2 first">Street Address</span>
+          </div>
+          <br>
+          <div class="col-12">
+            <label for="address" class="form-label">Address</label>
+            <input type="text" class="form-control" id="address" required>
+            <span class="text-secondary ml-2 first">Street Address Line 2</span>
+          </div>
+          
+          <div class="form-row">
+          <div class="col-md-6">
+            <label for="city" class="form-label"></label>
+            <input type="text" class="form-control" id="city" required>
+            <span class="text-secondary ml-2 first">City</span>
+          </div>
+          
+          <div class="col-md-6">
+            <label for="" class="form-label"></label>
+            <input type="text" class="form-control" id="inputZip" required>
+            <span class="text-secondary ml-2 first">State/Province</span>
+          </div>
+        </div>
+        
+        <div class="col-12">
+          <label for="address" class="form-label"></label>
+          <input type="text" class="form-control" id="address" required>
+          <span class="text-secondary ml-2 first">Postal/Zip Code</span>
+        </div>
+        <br>
+        <div class="col-6">
+        <label for="email" class="form-label">E-mail address</label><br>
+          <input type="email" class="form-control" id="email" placeholder="exapmle@example.com">
+          <span class="text-secondary ml-2 first">example@example.com</span>
+        </div>
+        
+        <div class="row">
+          <div class="col-md-12">
+              <form class="was-validated">
+                  <div class="h-secondary mt-3 text-muted">
+                      <span class="text-dark">Specific Registration Requests/Details</span>
+                    <textarea class="form-control is-invalid" id="validationTextarea"></textarea>
+                    <div class="invalid-feedback">
+                      Please enter a message in the textarea.
+                    </div>
+                  </div>
+                  <div class="col-auto">
+                      <button class="btn btn-primary mb-2" type="submit">Submit form</button>
+                    </div>
+          </div>
+       </form>
+     </div>
+  </div>
+</div>
+  <script src="bootstrap.min.js"></script>
+  <script src="jquery-3.6.0.min.js"></script>
+</body>
+
+</html>

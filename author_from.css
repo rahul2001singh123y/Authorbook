@@ -1,0 +1,90 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+html{
+  scroll-behavior: smooth;
+}
+/* Utility Classes */
+.h-primary {
+  font-size: 2.8rem;
+  padding: 12px;
+  width: 100%;
+}
+.h-secondary {
+  font-size: 1.8rem;
+  padding: 12px;
+  font-family: "Oswald", sans-serif;
+}
+/* botton style */
+ .center {
+  text-align: center;
+  font-family: "Oswald", sans-serif;
+}
+.client-item {
+  /* padding: 34px; */
+}
+/* Contact Section */
+#contact {
+  position: relative;
+  background: wheat;
+}
+#h-primary {
+  font-size: 2.4rem;
+}
+#contact-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 34px;
+}
+#contact-box input,
+#contact-box textarea {
+  width: 100%;
+  padding: 0.5rem;
+  border-radius: 9px;
+  font-size: 1.1rem;
+}
+#contact-box form {
+  width: 48%;
+}
+#contact-box label {
+  width: 1.3rem;
+  color: black;
+  font-family: "Oswald", sans-serif;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.btn{
+  margin-top:20px;
+  font-size: 20px;
+  padding: 10px 10px;
+  border-radius: 20px;
+  background: black;
+  text-align: center;
+  width: 49%;
+  justify-content: center;
+}
+.btn a{
+  text-decoration: none;
+  color: #fff;
+}
+
+.btn:hover{
+  color:blue;
+}
+
+.form-group label {
+color: black;
+font: 20px;
+}
+#course{
+      border: 2px solid black;
+      font-size: 24px;
+      width: 100%;
+      margin-top: 10px;
+      border-radius: 15px;
+}
